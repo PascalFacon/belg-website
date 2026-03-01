@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-neon-pink: #ff007f;
+  --color-neon-cyan: #00ffff;
+  --color-neon-green: #00ff00;
+  --color-void: #000000;
+  --color-surface: #101010;
+  --color-surface-dark: #1a1a1a;
+  --font-orbitron: var(--font-orbitron);
+}
+
+body {
+  background: radial-gradient(circle, #000000, #1a1a1a, #2b2b2b);
+  min-height: 100vh;
+  font-family: var(--font-orbitron), sans-serif;
+  color: #fff;
+}
+
+@layer utilities {
+  .glow-pink {
+    text-shadow: 0 0 15px #ff007f, 0 0 30px rgba(255, 0, 127, 0.6);
+  }
+
+  .glow-cyan {
+    text-shadow: 0 0 10px #00ffff, 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+
+  .glow-green {
+    text-shadow: 0 0 15px #00ff00, 0 0 30px rgba(0, 255, 0, 0.5);
+  }
+
+  .glow-border-cyan {
+    box-shadow: 0 0 20px #00ffff, 0 0 50px rgba(0, 255, 255, 0.2);
+  }
+}
