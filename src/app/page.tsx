@@ -62,13 +62,22 @@ export default function Home() {
           Reprocessed
         </p>
 
-        <a
-          href="#lineage"
-          className="absolute bottom-10 flex flex-col items-center gap-2 text-[0.65rem] tracking-[0.3em] text-[#444] uppercase transition-colors duration-300 hover:text-neon-cyan"
-        >
-          The Lineage
-          <span className="animate-bounce text-base">↓</span>
-        </a>
+        <div className="absolute bottom-10 flex flex-col sm:flex-row items-center gap-6 sm:gap-10">
+          <a
+            href="#lineage"
+            className="flex flex-col items-center gap-2 text-[0.65rem] tracking-[0.3em] text-[#444] uppercase transition-colors duration-300 hover:text-neon-cyan"
+          >
+            The Lineage
+            <span className="animate-bounce text-base">↓</span>
+          </a>
+          <a
+            href="#releases"
+            className="flex flex-col items-center gap-2 text-[0.65rem] tracking-[0.3em] text-[#444] uppercase transition-colors duration-300 hover:text-neon-cyan"
+          >
+            Releases
+            <span className="animate-bounce text-base">↓</span>
+          </a>
+        </div>
       </section>
 
       {/* ─── THE LINEAGE ─── */}
@@ -102,6 +111,39 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── RELEASES ─── */}
+      <section id="releases" className="border-t border-neon-cyan/10 px-6 py-28">
+        <div className="mx-auto max-w-2xl">
+          <p className="mb-20 text-[0.65rem] font-semibold tracking-[0.4em] text-neon-cyan uppercase">
+            Releases
+          </p>
+
+          <div className="border border-neon-cyan/10 p-6 sm:p-8">
+            <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 mb-2">
+              <h3 className="text-base font-bold uppercase tracking-[0.15em] text-white">
+                Nacre
+              </h3>
+              <span className="text-[0.65rem] tracking-[0.2em] text-[#555] uppercase">
+                1999 · Minimal Deep House
+              </span>
+            </div>
+            <p className="text-[0.65rem] tracking-[0.2em] text-[#555] uppercase mb-6">
+              Point Zero
+            </p>
+            <p className="text-sm leading-loose text-[#666] italic mb-8">
+              Allow the stillness
+            </p>
+            <iframe
+              src="https://suno.com/embed/49d49a0f-8002-4696-8ddf-97bb745ec807"
+              width="100%"
+              height="150"
+              frameBorder="0"
+              className="block"
+            />
           </div>
         </div>
       </section>
