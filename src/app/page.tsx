@@ -1,5 +1,12 @@
 const milestones = [
   {
+    year: "1984",
+    name: "R&S Records",
+    city: "Ghent",
+    description:
+      "Founded by Renaat Vandepapeliere and Sabine Maes in a shoebox apartment in Ghent. Released Aphex Twin, CJ Bolland, Jaydee. One of the most influential techno labels in the world.",
+  },
+  {
     year: "1987",
     name: "New Beat",
     city: "Antwerp",
@@ -7,11 +14,11 @@ const milestones = [
       "Born accidentally at Ancienne Belgique when DJ Dikke Ronny played a 45rpm EBM record at 33rpm. Belgium invented a genre by mistake.",
   },
   {
-    year: "1984",
-    name: "R&S Records",
-    city: "Ghent",
+    year: "Late '80s",
+    name: "Boccaccio",
+    city: "Destelbergen",
     description:
-      "Founded by Renaat Vandepapeliere and Sabine Maes in a shoebox apartment in Ghent. Released Aphex Twin, CJ Bolland, Jaydee. One of the most influential techno labels in the world.",
+      "The New Beat cathedral. 3,000+ Belgians, Dutch and French queuing in a field near Ghent for dark music at insane volume.",
   },
   {
     year: "1994",
@@ -28,11 +35,11 @@ const milestones = [
       "Started as a small party among friends on the Josef K boat in Ghent harbor. Grew into Belgium's most iconic techno event series at Vooruit.",
   },
   {
-    year: "Late '80s",
-    name: "Boccaccio",
-    city: "Destelbergen",
+    year: "1995",
+    name: "10 Days of Techno",
+    city: "Ghent",
     description:
-      "The New Beat cathedral. 3,000+ Belgians, Dutch and French queuing in a field near Ghent for dark music at insane volume.",
+      "Ten days of non-stop techno at Vooruit during the Gentse Feesten. Later renamed 10 Days Off. Ran for 20 editions until 2014. Voted best Belgian party in history.",
   },
 ];
 
